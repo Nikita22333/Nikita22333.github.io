@@ -1,0 +1,612 @@
+body{
+    font-family: Arial, sans-serif;
+}
+nav{
+    width: 100%;
+    height: 60px;
+    background: #344051;
+}
+
+.logo{
+    color: #fff;
+    font-size: 28px;
+    line-height: 60px;
+    padding-left: 388px;
+    float: left;
+    
+}
+
+.menu{
+    float: left;
+    padding-left: 432px;
+}
+
+.menu li{
+    float: left;
+    line-height: 60px;
+    color: #fff;
+    margin-right: 40px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.main{
+    width: 100%;
+    height: 80%;
+    background: url(../images/boy.png) 90% 100%/auto 85% no-repeat, url(../images/phon.jpg) center/cover no-repeat;
+}
+
+.title_conteiner{
+    float: left;
+    margin: 432px 0px 0px 405px;
+    color: #2c384a;
+    text-align: center;
+}
+
+.title_conteiner h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.title_conteiner h4{
+    margin-top: 40px;
+    font-size: 22px;
+    color: #79818d;
+}
+
+.title_conteiner input {
+    height: 40px;
+    text-align: center;
+    border: 3px solid #6d7682;
+    background: none;
+    border-radius: 5px;
+    color: #6d7682;
+    font-size: 13px;
+    padding: 0px 0px;
+    margin: 50px 14px 0px 14px;
+    
+}
+
+.submit1{
+    width: 100%;
+    height: 70%;
+    background: url(../images/cherta.png) 50% 65px no-repeat , url(../images/ikonka.png) 947px 484px no-repeat ,url(../images/photo.png) 50% 150px no-repeat ,url(../images/phon2.jpg) center/cover no-repeat;
+}
+
+.submit1 h3{
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    font-weight: medium;
+    text-align: center;
+    margin-top: 110px;
+    
+}
+
+.submit2 {
+    font-family: Arial, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 350px;
+    text-align: center;
+    color: #3f495a;
+}
+
+.submit3 {
+    font-family: Arial, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 120px;
+    color: #3f495a;
+    margin-top: 30px;
+}
+
+.submit1 input{
+    height: 35px;
+    text-align: center;
+    margin-left: 935px;
+    margin-top: 34px;
+    border: 3px solid #6d7682;
+    background: none;
+    border-radius: 5px;
+    color: #3f495a;
+    
+}
+
+.submit5{
+    width: 100%;
+    height: 50%;
+    background: url(../images/cherta.png) 50% 165px no-repeat , url(../images/nout.png) 450px 313px no-repeat , url(../images/znak.png) 770px 304px no-repeat , url(../images/raketa.png) no-repeat 1090px 300px ,  url(../images/gramophon.png) no-repeat 1410px 290px ,url(../images/phon3.jpg) center/cover no-repeat;
+    
+}
+
+.submit5 h3{
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    font-weight: medium;
+    text-align: center;
+    padding-top: 108px;
+    color: #263244;
+}
+
+.submit5 h4{
+    font-family: Arial, sans-serif;
+    margin-top: 240px;
+    margin-left: 435px;
+    color: #cf7600;
+    font-weight: 700;
+}
+
+.submit6 {
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+    word-spacing: 0.5px;
+    margin-left: 350px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #515a69;
+}
+
+.submit7 h4{
+    font-family: Arial, sans-serif;
+    margin-top: -73px;
+    margin-left: 755px;
+    color: #cf7600;
+    font-weight: 700;
+}
+
+.submit8 {
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+    word-spacing: 0.5px;
+    margin-left: 700px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #515a69;
+}
+
+.submit9 h4{
+    font-family: Arial, sans-serif;
+    margin-top: -73px;
+    margin-left: 1075px;
+    color: #cf7600;
+    font-weight: 700;
+}
+    
+.submit10 {
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+    word-spacing: 0.5px;
+    margin-left: 1050px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #515a69;
+}
+
+.submit11 h4{
+    font-family: Arial, sans-serif;
+    margin-top: -73px;
+    margin-left: 1395px;
+    color: #cf7600;
+    font-weight: 700;
+}
+
+.submit12 {
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+    word-spacing: 0.5px;
+    margin-left: 1390px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #515a69;
+}
+
+.submit13{
+    width: 100%;
+    height: 100%;
+    background:url(../images/pryam.png) 427px 950px no-repeat ,url(../images/cherta.png) 965px 100px no-repeat , url(../images/photka.png) center no-repeat , url(../images/phon2.jpg) center/cover no-repeat;
+}
+
+.submit13 h3{
+    font-family: Arial, sans-serif;
+    color: #384354;
+    font-size: 30px;
+    font-weight: medium;
+    text-align: center;
+    padding-top: 50px;
+    padding-right: 30px;
+    
+}
+
+.submit14{
+    font-family: Arial, sans-serif;
+    margin-top: 40px;
+    margin-left: 500px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #525a68;
+}
+
+.submit15 h3{
+    font-family: Arial, sans-serif;
+    color: #384354;
+    font-size: 30px;
+    font-weight: medium;
+    padding-top: 700px;
+    padding-right: 1070px;
+}
+
+.submit15 h5{
+    font-family: Arial, sans-serif;
+    color:#3f495a;
+    font-size: 15px;
+    font-weight: medium;
+    margin-top: 10px;
+    margin-left: 426px;
+}
+
+.submit16 h3{
+    font-family: Arial, sans-serif;
+    color: #384354;
+    font-size: 30px;
+    font-weight: medium;
+    margin-top: -35px;
+    padding-right: 1040px;
+}
+
+.submit16 a{
+    font-family: Arial, sans-serif;
+    color:#3f495a;
+    font-size: 15px;
+    font-weight: medium;
+    margin-top: 20px;
+    margin-left: 426px;
+}
+
+.submit17 h3{
+    font-family: Arial, sans-serif;
+    color: #384354;
+    font-size: 30px;
+    font-weight: medium;
+    margin-top: -165px;
+    padding-right: 400px;
+}
+
+.submit17 p{
+    font-family: Arial, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+    margin-right: 22px;
+    color: #3f495a;
+    margin-top: 10px;
+}
+
+.submit18 h3{
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: -5px;
+    padding-right: 970px;
+}
+
+.submit19{
+    width: 90%;
+    height: 100%;
+    background: url(../images/zero2.png) 1428px 630px no-repeat,url(../images/zero.png) 1428px 575px no-repeat ,url(../images/line.png) 550px 530px no-repeat ,url(../images/phon2.jpg) center/cover no-repeat
+}
+
+.submit19 h3{
+    font-family: Arial, sans-serif;
+    color: #1c2534;
+    font-size: 30px;
+    font-weight: medium;
+    text-align: center;
+    margin-top: 65px;
+}
+
+.submit20 h3{
+    font-family: Arial, sans-serif;
+    color: #1c2534;
+    font-size: 30px;
+    font-weight: medium;
+    margin-top: 40px;
+    margin-right: 560px;
+    
+}
+
+.submit20 select{
+    height: 50px;
+    text-align: center;
+    border: 2px solid #eeeeee;
+    background: url(../images/vstavka1.png) no-repeat;
+    color: #6d7682;
+    font-size: 30px;
+    padding: 0px 430px;
+    margin-top: 25px;
+    margin-left: 550px;
+}
+
+.submit21 h3{
+    font-family: Arial, sans-serif;
+    color: #1c2534;
+    font-size: 30px;
+    font-weight: medium;
+    margin-top: 40px;
+    margin-right: 600px;
+}
+
+.submit21 select{
+    height: 50px;
+    text-align: center;
+    border: 2px solid #eeeeee;
+    background: url(../images/vstavka1.png) no-repeat;
+    color: #6d7682;
+    font-size: 30px;
+    padding: 0px 430px;
+    margin-top: 25px;
+    margin-left: 550px;
+}
+
+.submit22 h3{
+    font-family: Arial, sans-serif;
+    color: #1c2534;
+    font-size: 30px;
+    font-weight: medium;
+    margin-top: 40px;
+    margin-right: 480px;
+}
+
+.submit22 select{
+    height: 50px;
+    text-align: center;
+    border: 2px solid #eeeeee;
+    background: url(../images/vstavka1.png) no-repeat;
+    color: #6d7682;
+    font-size: 30px;
+    padding: 0px 430px;
+    margin-top: 25px;
+    margin-left: 550px;
+}
+
+.submit19 h5{
+    font-family: Arial, sans-serif;
+    color: #1c2534;
+    font-size: 30px;
+    font-weight: medium;
+    margin-top: 100px;
+    margin-left: 547px;
+}
+
+.submit23 h5{
+    font-family: Arial, sans-serif;
+    color: #1c2534;
+    font-size: 30px;
+    font-weight: medium;
+    margin-top: 30px;
+}
+
+.submit24{
+    width: 100%;
+    height: 50%;
+    background: url(../images/cherta.png) 50% 155px no-repeat,url(../images/smile.png) 450px 250px no-repeat, url(../images/skobki.png) 830px 255px no-repeat,url(../images/galochka.png) no-repeat 1140px 255px, url(../images/kubok.png) no-repeat 1430px 250px ,url(../images/phon4.jpg) center/cover no-repeat;
+}
+
+.submit24 h3{
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    font-weight: medium;
+    text-align: center;
+    padding-top: 100px;
+    color: #263244;
+}
+
+.submit25 h3{
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 90px;
+    margin-right: 1080px;
+    color: #263244;
+}
+
+.submit25 h4{
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    margin-left: 380px;
+    color: #323e4f;
+    font-weight: 700;
+}
+
+.submit26 h3{
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: -185px;
+    margin-right: 300px;
+    color: #263244;
+}
+
+.submit26 h4{
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    margin-left: 820px;
+    color: #323e4f;
+    font-weight: 700;
+}
+
+.submit27 h3{
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: -185px;
+    margin-left: 290px;
+}
+
+.submit27 h4{
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    margin-left: 1080px;
+    color: #323e4f;
+    font-weight: 700;
+}
+
+.submit28 h3{
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: -185px;
+    margin-left: 890px;
+    color: #263244;
+}
+
+.submit28 h4{
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    margin-left: 1390px;
+    color: #323e4f;
+    font-weight: 700;
+}
+
+.submit29{
+    height: 60%;
+    width: 100%;
+    background: url(../images/cherta.png) 890px 60px no-repeat, url(../images/photo1.png) no-repeat 880px 115px , url(../images/phon5.jpg) center/cover no-repeat;
+}
+
+.submit29 h3{
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    margin-left: 860px;
+    margin-top: 115px;
+    color: #243042;
+}
+
+.submit29 p{
+    font-family: Arial, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    margin-left: 600px;
+    margin-top: 235px;
+    color: #243042;
+}
+
+.submit29 h5{
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    margin-left: 785px;
+    margin-top: 40px;
+    color: #243042;
+}
+
+.submit29 input{
+    background: none;
+    margin-top: 55px;
+    
+}
+.st1{
+    margin-left: 900px;
+}
+
+.submit30{
+    height: 80%;
+    width: 100%;
+    background: url(../images/cherta.png) 920px 160px no-repeat , url(../images/geo.png) 700px 250px no-repeat, url(../images/konvert.png) 950px 255px no-repeat, url(../images/truba.png) 1190px 260px no-repeat ,url(../images/phon6.jpg) center/cover no-repeat;
+}
+
+.submit30 h3{
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    margin-left: 840px;
+    padding-top: 105px;
+    color: #ffffff;
+}
+
+.submit30 p{
+    font-family: Arial, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    margin-left: 670px;
+    margin-top: 60px;
+    color: #e9e9ea;
+}
+
+.submit30 h4{
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    margin-left: 670px;
+    margin-top: 90px;
+    color: #e9e9ea;
+}
+
+.submit30 h5{
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    margin-left: 830px;
+    padding-top: 65px;
+    color: #ffffff;
+}
+
+.submit31 h4{
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    margin-left: 885px;
+    margin-top: -33px;
+    color: #e9e9ea;
+}
+
+.submit32 h4{
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    margin-left: 1150px;
+    margin-top: -12px;
+    color: #e9e9ea;
+}
+
+.submit33 input{
+    height: 30px;
+    text-align: center;
+    background: url(../images/name.png) no-repeat;
+    color: #6d7682;
+    font-size: 20px;
+    padding: 15px 50px;
+    margin-top: 50px;
+    margin-left: 595px;
+}
+
+.submit34 input{
+    height: 30px;
+    text-align: center;
+    background: url(../images/name.png) no-repeat;
+    color: #6d7682;
+    font-size: 20px;
+    padding: 15px 50px;
+    margin-top: 10px;
+    margin-left: 975px;
+}
+
+.submit35 textarea{
+    height: 30px;
+    text-align: center;
+    background: url(../images/massage.png) no-repeat;
+    color: #6d7682;
+    font-size: 20px;
+    padding: 15px 50px;
+    margin-top: 20px;
+    margin-left: 585px;
+}
+
+.submit36 input{
+    height: 40px;
+    text-align: center;
+    border: 3px solid  #ffffff;
+    background: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 13px;
+    margin-left: 895px;
+    
+}
+   
+
