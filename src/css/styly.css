@@ -1,10 +1,32 @@
 body{
     font-family: Arial, sans-serif;
 }
+/*
+.loader{
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  border-top: 5px solid red;
+  border-left: 3px solid brown;
+  border-bottom: 1px solid purple;
+  border-right: transparent;
+  animation: spinner 0.8s linear infinite;
+}
+
+@keyframes spinner{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+*/
 nav{
     width: 100%;
     height: 60px;
     background: #344051;
+    position: fixed;
 }
 
 .logo{
@@ -13,9 +35,15 @@ nav{
     line-height: 60px;
     padding-left: 388px;
     float: left;
+    -webkit-animation: comming 2s ease;
+    -o-animation: comming 2s ease;
+    animation: comming 2s ease;
     
 }
-
+main{
+    width: 100%;
+    height: 100%;
+}
 .menu{
     float: left;
     padding-left: 432px;
@@ -28,6 +56,11 @@ nav{
     margin-right: 40px;
     font-size: 16px;
     text-transform: uppercase;
+    -webkit-animation:top_shift 0.4s ease forwards ;
+    -o-animation: top_shift 0.4s ease forwards;
+    animation: top_shift 0.4s ease forwards;
+    opacity: 0;
+
 }
 
 .main{
@@ -41,6 +74,11 @@ nav{
     margin: 432px 0px 0px 405px;
     color: #2c384a;
     text-align: center;
+    opacity: 0;
+    -webkit-animation: titlemove 0.8s ease forwards;
+    -o-animation: titlemove 0.8s ease forwards;
+    animation: titlemove 0.8s ease forwards;
+    animation-delay: 2.5s;     
 }
 
 .title_conteiner h1{
@@ -63,11 +101,93 @@ nav{
     color: #6d7682;
     font-size: 13px;
     padding: 0px 0px;
-    margin: 50px 14px 0px 14px;
+    margin: 50px 14px 0px 14px;   
+}
+
+.menu li a{
+    transition: all 0.1s;
+    color: white;
+    transform: scale(1);
+    display: inline-block;
+}
+
+.menu li a:visited{
+    color: white;
     
 }
 
-.submit1{
+.menu li a:hover{
+    color: #d17700;
+}
+
+.menu li a:active{
+    transform: scale(1.2);
+}
+.title_conteiner input{
+    transition: all 0.1s;
+    transform: scale(1);
+}
+
+.title_conteiner input:hover{
+    background: #344051;
+    color: white;
+}
+
+.title_conteiner input:active{
+    transform: scale(1.1);
+}
+
+@keyframes comming{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes top_shift{
+    from{
+        opacity: 0;
+        margin-top: -80px;
+    }
+    to{
+        opacity: 1;
+        margin-top: 0px;
+    }
+}
+
+.menu li:nth-child(2){
+    animation-delay: 0.4s;
+}
+
+.menu li:nth-child(3){
+    animation-delay: 0.8s;
+}
+
+.menu li:nth-child(4){
+    animation-delay: 1.2s;
+}
+
+.menu li:nth-child(5){
+    animation-delay: 1.6s;
+}
+
+.menu li:nth-child(6){
+    animation-delay: 2s;
+}
+
+@keyframes titlemove{
+    from{
+        opacity: 0;
+        margin-left: -500px;
+    }
+    to{
+        opacity: 1;
+        margin-left: 404px;
+    }
+}
+.submit1{ 
     width: 100%;
     height: 70%;
     background: url(../images/cherta.png) 50% 65px no-repeat , url(../images/ikonka.png) 947px 484px no-repeat ,url(../images/photo.png) 50% 150px no-repeat ,url(../images/phon2.jpg) center/cover no-repeat;
@@ -79,7 +199,21 @@ nav{
     font-weight: medium;
     text-align: center;
     margin-top: 110px;
-    
+    opacity:0;
+    -webkit-animation: title 3s ease forwards;
+    -o-animation: title 3s ease forwards;
+    animation: title 3s ease forwards;
+}
+
+@keyframes title{
+    from{
+        opacity: 0;
+        margin-left: -900px;
+    }
+    to{
+        opacity: 1;
+        margin-left: 35px;
+    }
 }
 
 .submit2 {
@@ -110,7 +244,20 @@ nav{
     background: none;
     border-radius: 5px;
     color: #3f495a;
-    
+}
+
+.submit1 input{
+    transition: all 0.1s;
+    transform: scale(1);
+}
+
+.submit1 input:hover{
+    background: #344051;
+    color: white;
+}
+
+.submit1 input:active{
+    transform: scale(1.1);
 }
 
 .submit5{
@@ -127,14 +274,42 @@ nav{
     text-align: center;
     padding-top: 108px;
     color: #263244;
+    opacity:0;
+    -webkit-animation: title11 3s ease forwards;
+    -o-animation: title 3s ease forwards;
+    animation: title 3s ease forwards;
 }
-
+@keyframes title1{
+    from{
+        opacity: 0;
+        margin-left: -500px;
+    }
+    to{
+        opacity: 1;
+        margin-left: 108px;
+    }
+}
 .submit5 h4{
     font-family: Arial, sans-serif;
     margin-top: 240px;
     margin-left: 435px;
     color: #cf7600;
     font-weight: 700;
+    opacity: 0;
+    -webkit-animation: title8 3.5s ease forwards;
+    -o-animation: title8 3.5s ease forwards;
+    animation: title8 3.5s ease forwards;
+}
+
+@keyframes title8{
+    from{
+        opacity: 0;
+        margin-left: -900px
+    }
+    to{
+        opacity: 1;
+        margin-left: 435px;
+    }
 }
 
 .submit6 {
@@ -153,8 +328,21 @@ nav{
     margin-left: 755px;
     color: #cf7600;
     font-weight: 700;
+    opacity: 0;
+    -webkit-animation:title9 4s ease forwards ;
+    -o-animation: title9 4s ease forwards;
+    animation: title9 4s ease forwards;
 }
-
+@keyframes title9{
+    from{
+        opacity: 0;
+        margin-left: -900px
+    }
+    to{
+        opacity: 1;
+        margin-left: 755px;
+    }
+}
 .submit8 {
     font-family: Arial, sans-serif;
     margin-top: 20px;
@@ -171,8 +359,21 @@ nav{
     margin-left: 1075px;
     color: #cf7600;
     font-weight: 700;
+    opacity: 0;
+    -webkit-animation: title10 4.5s ease forwards;
+    -o-animation: title10 4.5s ease forwards;
+    animation: title10 4.5s ease forwards;
 }
-    
+@keyframes title10{
+    from{
+        opacity: 0;
+        margin-left: -900px
+    }
+    to{
+        opacity: 1;
+        margin-left: 1075px;
+    }
+}    
 .submit10 {
     font-family: Arial, sans-serif;
     margin-top: 20px;
@@ -189,8 +390,21 @@ nav{
     margin-left: 1395px;
     color: #cf7600;
     font-weight: 700;
+    opacity: 0;
+    -webkit-animation:title11 5s ease forwards;
+    -o-animation: title11 5s ease forwards;
+    animation: title11 5s ease forwards;
 }
-
+@keyframes title11{
+    from{
+        opacity: 0;
+        margin-left: -900px
+    }
+    to{
+        opacity: 1;
+        margin-left: 1395px;
+    }
+}  
 .submit12 {
     font-family: Arial, sans-serif;
     margin-top: 20px;
@@ -215,9 +429,21 @@ nav{
     text-align: center;
     padding-top: 50px;
     padding-right: 30px;
-    
+    opacity: 0;
+    -webkit-animation: title2 2s ease forwards ;
+    -o-animation: title2 2s ease forwards ;
+    animation: title2 2s ease forwards;   
 }
-
+@keyframes title2{
+    from{
+        opacity: 0;
+        margin-right: -500px;
+    }
+    to{
+        opacity: 1;
+        margin-right: 10px;
+    }
+}
 .submit14{
     font-family: Arial, sans-serif;
     margin-top: 40px;
@@ -234,6 +460,7 @@ nav{
     font-weight: medium;
     padding-top: 700px;
     padding-right: 1070px;
+  
 }
 
 .submit15 h5{
@@ -390,7 +617,7 @@ nav{
 .submit24{
     width: 100%;
     height: 50%;
-    background: url(../images/cherta.png) 50% 155px no-repeat,url(../images/smile.png) 450px 250px no-repeat, url(../images/skobki.png) 830px 255px no-repeat,url(../images/galochka.png) no-repeat 1140px 255px, url(../images/kubok.png) no-repeat 1430px 250px ,url(../images/phon4.jpg) center/cover no-repeat;
+    background: url(../images/cherta.png) 50% 155px no-repeat,url(../images/smile.png) 450px 250px no-repeat, url(../images/skobki.png) 830px 255px no-repeat,url(../images/galochka.png) no-repeat 1140px 255px, url(../images/kubok.png) no-repeat 1430px 250px ,url(../images/phon4.jpg) fixed center/cover no-repeat ;
 }
 
 .submit24 h3{
@@ -401,7 +628,7 @@ nav{
     padding-top: 100px;
     color: #263244;
 }
-
+    
 .submit25 h3{
     font-family: Arial, sans-serif;
     font-size: 30px;
@@ -481,8 +708,21 @@ nav{
     margin-left: 860px;
     margin-top: 115px;
     color: #243042;
+    opacity: 0;
+    -webkit-animation: title4 2s ease forwards;
+    -o-animation: title4 2s ease forwards;
+    animation: title4 2s ease forwards;
 }
-
+@keyframes title4{
+    from{
+        opacity: 0;
+        margin-left: -500px;
+    }
+    to{
+        opacity: 1;
+        margin-top: 115px;
+    }
+}
 .submit29 p{
     font-family: Arial, sans-serif;
     font-weight: 500;
@@ -521,8 +761,21 @@ nav{
     margin-left: 840px;
     padding-top: 105px;
     color: #ffffff;
+    opacity: 0;
+    -webkit-animation: title5 2s ease forwards;
+    -o-animation: title5 2s ease forwards;
+    animation: title5 2s ease forwards;
 }
-
+@keyframes title5{
+    from{
+        opacity: 0;
+        margin-left: -500px;
+    }
+    to{
+        opacity: 1;
+        margin-top: 105px;
+    }
+}
 .submit30 p{
     font-family: Arial, sans-serif;
     font-weight: 500;
@@ -582,7 +835,8 @@ nav{
     color: #6d7682;
     font-size: 20px;
     padding: 15px 50px;
-    margin-top: 10px;
+    position: absolute;
+    margin-top: -30px;
     margin-left: 975px;
 }
 
@@ -594,7 +848,7 @@ nav{
     font-size: 20px;
     padding: 15px 50px;
     margin-top: 20px;
-    margin-left: 585px;
+    margin-left: 595px;
 }
 
 .submit36 input{
@@ -604,9 +858,22 @@ nav{
     background: none;
     border-radius: 5px;
     color: #ffffff;
+    position: absolute;
     font-size: 13px;
     margin-left: 895px;
-    
+    margin-top: 120px;
 }
-   
+.submit36 input{
+    transition: all 0.1s;
+    transform: scale(1);
+}
+
+.submit36 input:hover{
+    background: #344051;
+    color: white;
+}
+
+.submit36 input:active{
+    transform: scale(1.1);
+}   
 
